@@ -45,13 +45,6 @@ class NPC():
         somme = des[0] + des[1] + des[2]
         return somme
 
-
-    # Methode pour attaquer. Il est common pour Heros et Kobold
-    # def attaquer(self, cible):
-    #     # je ne sais pas quoi envoyer comme le parametre
-    #     cible.subir_dommage(self.force)
-
-
 # La classe pour Kobold. Elle n'a pas rien de specifique, alors on appele la classe NPC
 class Kobold(NPC):
     def __init__(self, nom, race, espece, point_vie, profession):
